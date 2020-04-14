@@ -1222,55 +1222,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1393396835}
-    - target: {fileID: 819829078672481394, guid: 52d2e238cab84b844ad3fabb4d70e2de,
+    - target: {fileID: 2434241514179855363, guid: 52d2e238cab84b844ad3fabb4d70e2de,
         type: 3}
-      propertyPath: chaseRange
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9138061382014502652, guid: 52d2e238cab84b844ad3fabb4d70e2de,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1888191125128474554, guid: 52d2e238cab84b844ad3fabb4d70e2de,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.17939006
-      objectReference: {fileID: 0}
-    - target: {fileID: 1888191125128474554, guid: 52d2e238cab84b844ad3fabb4d70e2de,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5964702
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466738803835669451, guid: 52d2e238cab84b844ad3fabb4d70e2de,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1393396835}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52d2e238cab84b844ad3fabb4d70e2de, type: 3}
---- !u!1 &7859740079805463879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6181971988791672975, guid: 52d2e238cab84b844ad3fabb4d70e2de,
-    type: 3}
-  m_PrefabInstance: {fileID: 7859740079805463878}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &7859740079805463880
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7859740079805463879}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c354d4c6de4722a4c839c203d8a5cb30, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
