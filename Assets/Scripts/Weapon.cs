@@ -51,7 +51,7 @@ public class Weapon : MonoBehaviour
 
     private void CreateHitImpact(RaycastHit hit)
     {
-        GameObject vfx = Instantiate(hitFlash, hit.transform.position, Quaternion.identity);
+        GameObject vfx = Instantiate(hitFlash, hit.transform.position, Quaternion.LookRotation(hit.normal));
         vfx.GetComponent<ParticleSystem>().Play();
         vfx.transform.parent = hit.transform;
         float destroyDelay = vfx.GetComponent<ParticleSystem>().main.duration;
