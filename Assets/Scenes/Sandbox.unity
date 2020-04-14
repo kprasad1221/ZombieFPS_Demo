@@ -1222,6 +1222,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1393396835}
+    - target: {fileID: 819829078672481394, guid: 52d2e238cab84b844ad3fabb4d70e2de,
+        type: 3}
+      propertyPath: chaseRange
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9138061382014502652, guid: 52d2e238cab84b844ad3fabb4d70e2de,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1888191125128474554, guid: 52d2e238cab84b844ad3fabb4d70e2de,
         type: 3}
       propertyPath: m_LocalScale.z
