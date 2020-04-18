@@ -19,12 +19,6 @@ public class PlayerHealth : MonoBehaviour
 
     private void PlayerDeath()
     {
-        //menu etc
-        LoadLevel();
-    }
-
-    private void LoadLevel()
-    {
-        SceneManager.LoadScene(0);
+        GetComponent<DeathHandler>().ProcessDeath();
     }
 }
