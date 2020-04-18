@@ -12,6 +12,11 @@ public class EnemyAttack : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>();
     }
 
+    void OnDamageTaken()
+    {
+        print("Message Broadcast Received");
+    }
+
     public void AttackHitEvent()
     {
         if(target == null) { return; }

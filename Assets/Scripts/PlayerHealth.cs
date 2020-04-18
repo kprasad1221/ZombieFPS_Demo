@@ -13,12 +13,7 @@ public class PlayerHealth : MonoBehaviour
         healthPoints -= damage;
         if(healthPoints <= 0f)
         {
-            PlayerDeath();
+            GetComponent<DeathHandler>().ProcessDeath();
         }
-    }
-
-    private void PlayerDeath()
-    {
-        GetComponent<DeathHandler>().ProcessDeath();
     }
 }

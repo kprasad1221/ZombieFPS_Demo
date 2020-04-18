@@ -16,5 +16,8 @@ public class DeathHandler : MonoBehaviour
     {
         //pause the game state
         gameOverCanvas.enabled = true;
+        Time.timeScale = 0;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
